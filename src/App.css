@@ -1,38 +1,174 @@
-.App {
-  text-align: center;
+.navHeader {
+  clip-path: polygon(0 0, 100% 0px, 100% 100%, 0 calc(100% - 100px));
+  background-color: #f8f9fa;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.employment {
+  margin-top: 70px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.background {
+  padding-bottom: 100px;
+  -webkit-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px));
+  clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px));
+}
+.background2 {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+  background-color: white;
+}
+
+.navigation {
+  max-width: 100%;
+  font-size: 18px;
+  background-color: lightgray;
+  white-space: nowrap;
+}
+
+.aboutLink, .aboutLink:hover, .aboutLink:focus, .aboutLink:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navButton {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.navItems {
+  justify-content: flex-end;
+}
+
+.navTest {
+  display: block;
+  z-index: 800;
+}
+
+  .itemTest {
+    padding-top: 50px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.carouselTest {
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.contact, .a {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  text-decoration: none;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.projects {
+  padding-top: 56px;
+}
+
+.container {
+  overflow: auto;
+}
+
+.accordion {
+  box-shadow: -1px -1px 17px 0px lightgrey;
+}
+.projectsList {
+  margin-top: 20px;
+  margin-bottom: 1rem;
+  color: #5e5e5e;
+  border-top-width: .5px;
+  border-top-color: lightgray;
+  border-top-style: solid;
+  padding-top: 20px;
+}
+
+.about {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Footer {
+  border-Top: solid;
+  border-color: grey;
+  border-width: .5px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  margin-top: -100px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.Links {
+  float: left;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+.Content {
+  padding: 3% 0;
+}
+
+.expanded {
+  animation: fadeOut ease 3s;
+  padding: 0px;
+  margin: 0px;
+  font-size: 0px;
+  overflow: auto;
+}
+
+
+@keyframes fadeOut {
+    0% {
+      opacity: 1;
+      font-size: 16px;
+    }
+    50% {
+      font-size: 20px;
+    }
+    100% {
+      opacity: 0;
+      font-size: 0px;
+    }
   }
-  to {
-    transform: rotate(360deg);
+.expandedText {
+    animation: fadeIn ease 3s;
+    margin: 0px;
+    font-size: 16px;
+    max-width: 100%;
+    padding-top: 50px;
+    overflow: auto;
+}
+
+.expandedText::-webkit-scrollbar {
+  display: none;
+}
+
+
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+      font-size: 0px;
+    }
+    50% {
+      font-size: 20px;
+    }
+    100% {
+      opacity:1;
+      font-size: 16px;
+    }
   }
+  
+  .skills {
+    columns: 4;
 }
