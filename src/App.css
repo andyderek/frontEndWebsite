@@ -39,9 +39,11 @@
 
 
 
-/* .navItems {
+.navItems {
+  /* flex-direction: row;
+  justify-content: right; */
   justify-content: flex-end;
-} */
+}
 
 .navTest {
   display: block;

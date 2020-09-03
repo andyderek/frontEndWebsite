@@ -7,7 +7,7 @@ function Navigation() {
     <Navbar collapseOnSelect expand="lg" bg="light" fixed="top">
       <Navbar.Brand>Andy Nixon | Front-End Developer</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-      <Navbar.Collapse id="basic-navbar-nav">
+      <Navbar.Collapse id="basic-navbar-nav" className='navItems'>
        <Nav>
             <Nav.Link className="nav-item nav-link" href="/About">About Me</Nav.Link>
             <Nav.Link className="nav-item nav-link" href="/Projects">Projects</Nav.Link>
