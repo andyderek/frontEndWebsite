@@ -18,7 +18,7 @@ function Projects2() {
                     <Accordion.Collapse eventKey="0">
                         <Card.Body>
                             <Row>
-                                <Col lg={7} sm={3}>
+                                <Col lg={7}>
                                     <Image src={Feastly} fluid></Image>
                                 </Col>
                                 <Col lg={5}>

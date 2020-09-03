@@ -11,8 +11,8 @@ function Colin(props){
                 </Col>
             </Row>
             <Row>
-                <Col className="d-flex justify-content-center">
-                    <Image width="20%" src={ColinPic} fluid roundedCircle/>
+                <Col>
+                    <Image className="quoteImages" src={ColinPic} fluid roundedCircle/>
                 </Col>
             </Row>
             <Row>

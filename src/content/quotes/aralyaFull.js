@@ -11,8 +11,8 @@ function AralyaFull(props){
                 </Col>
             </Row>
             <Row>
-                <Col className="d-flex justify-content-center">
-                    <Image width="20%" src={Aralya} fluid roundedCircle/>
+                <Col>
+                    <Image className='quoteImages' src={Aralya} fluid roundedCircle/>
                 </Col>
             </Row>
             <Row>

@@ -11,8 +11,8 @@ function Dion(props){
                     </Col>
                 </Row>
                 <Row>
-                    <Col className="d-flex justify-content-center">
-                        <Image width="20%" src={DionPic} fluid roundedCircle/>
+                    <Col>
+                        <Image className='quoteImages' src={DionPic} fluid roundedCircle/>
                     </Col>
                 </Row>
                 <Row>

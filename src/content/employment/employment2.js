@@ -17,8 +17,8 @@ function Employment2() {
                     <Accordion.Collapse eventKey="0">
                         <Card.Body>
                             <Row>
-                                <Col lg={7} sm={3}>
-                                    <Image src={IATSE} fluid rounded></Image>
+                                <Col lg={7}>
+                                    <Image width='100%' src={IATSE} fluid rounded></Image>
                                 </Col>
                                 <Col lg={5} className="projectsList">
                                     <ul>

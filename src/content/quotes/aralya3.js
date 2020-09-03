@@ -4,15 +4,15 @@ import Aralya from '../../assets/aralya.svg'
 
 function arayla3(props){
     return (
-        <Container className="d-flex flex-column align-items-center">
+        <Container>
             <Row>
                 <Col className="d-flex justify-content-center aralya">
                 <span style={props.Styles}><em>"Andy enjoys tackling technical problems, collaborating to find the best solutions, and would be a great addition to any engineering team."</em></span><br/>
                 </Col>
             </Row>
             <Row>
-                <Col className="d-flex justify-content-center">
-                    <Image width="50%" src={Aralya} fluid roundedCircle/>
+                <Col>
+                    <Image className="quoteImages" src={Aralya} fluid roundedCircle/>
                 </Col>
             </Row>
             <Row>

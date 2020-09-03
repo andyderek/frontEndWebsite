@@ -17,7 +17,7 @@ function Recommendations() {
         marginBottom: "0px",
         paddingLeft: "0px",
         paddingRight: "0px",
-        fontSize: "25px",
+        fontSize: "calc(50% + 1vw + 1vh)",
     }
 
     const companyName = {
