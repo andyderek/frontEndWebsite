@@ -30,7 +30,7 @@ function Recommendations() {
     }
 
   return (
-    <Container onClick={redirectToAbout} className='theBackground carouselTest'>
+    <Container onClick={redirectToAbout} className='fixed-top theBackground carouselTest'>
         <Carousel fade={true} pause={false} indicators={false}>
 
             <Carousel.Item>
