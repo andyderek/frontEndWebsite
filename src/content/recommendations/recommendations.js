@@ -34,6 +34,10 @@ function Recommendations() {
         <Carousel fade={true} pause={false} indicators={false}>
 
             <Carousel.Item>
+                <Yeiber Styles={recStyles} companyName={companyName}/>
+            </Carousel.Item>
+
+            <Carousel.Item>
                 <Aralya1 Styles={recStyles} companyName={companyName}/>
             </Carousel.Item>
 
@@ -51,10 +55,6 @@ function Recommendations() {
 
             <Carousel.Item>
                 <Aralya3 Styles={recStyles} companyName={companyName}/>
-            </Carousel.Item>
-
-            <Carousel.Item>
-                <Yeiber Styles={recStyles} companyName={companyName}/>
             </Carousel.Item>
 
             <Carousel.Item>
