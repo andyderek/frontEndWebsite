@@ -25,7 +25,6 @@ function Recommendations() {
     }
 
     function redirectToAbout() {
-        console.log("FIRing")
         window.location.href = '/about'
     }
 
