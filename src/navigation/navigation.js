@@ -4,7 +4,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 function Navigation() {
   
   return (
-    <Navbar collapseOnSelect expand="lg" bg="light" fixed="top">
+    <Navbar className="navFront" collapseOnSelect expand="lg" bg="light" fixed="top">
       <Navbar.Brand><a href="/" className="brandHomeLink">Andy Nixon | Front-End Developer</a></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       <Navbar.Collapse id="basic-navbar-nav" className='navItems'>
