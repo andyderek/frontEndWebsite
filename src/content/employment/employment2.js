@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Accordion, Card, Image} from 'react-bootstrap'
-import IATSE from 'https://andydixonwebsite.s3-us-west-1.amazonaws.com/iatse.jpeg'
+
 
 function Employment2() {
 
@@ -18,7 +18,7 @@ function Employment2() {
                         <Card.Body>
                             <Row>
                                 <Col lg={7}>
-                                    <Image width='100%' src={IATSE} fluid rounded/>
+                                    <Image width='100%' src='https://andydixonwebsite.s3-us-west-1.amazonaws.com/iatse.jpeg' fluid rounded/>
                                 </Col>
                                 <Col lg={5} className="projectsList">
                                     <ul>
