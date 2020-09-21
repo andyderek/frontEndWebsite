@@ -1,7 +1,5 @@
 import React from 'react';
 import { Container, Row, Col, Accordion, Card, Image} from 'react-bootstrap'
-import Feastly  from "../../assets/feastly.jpeg"
-import Hacker from "../../assets/HackerHabitat.jpeg"
 
 function Projects2() {
 
@@ -19,7 +17,7 @@ function Projects2() {
                         <Card.Body>
                             <Row>
                                 <Col lg={7}>
-                                    <Image src={Feastly} fluid/>
+                                    <Image src="https://andydixonwebsite.s3-us-west-1.amazonaws.com/feastly.jpeg" fluid/>
                                 </Col>
                                 <Col lg={5}>
                                     <ul className='projectsList'>
@@ -41,8 +39,8 @@ function Projects2() {
                     <Accordion.Collapse eventKey="1">
                         <Card.Body>
                             <Row>
-                                <Col lg={7} sm={3}>
-                                    <Image src={Hacker} fluid/>
+                                <Col lg={7}>
+                                    <Image src="https://andydixonwebsite.s3-us-west-1.amazonaws.com/HackerHabitat.jpeg" fluid/>
                                 </Col>
                                 <Col lg={5}>
                                     <ul className='projectsList'>

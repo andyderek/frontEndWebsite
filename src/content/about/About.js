@@ -25,7 +25,7 @@ function About() {
   }
 
   return (
-    <Container className="expandedText">
+    <Container>
       <Container className="about">
         <Row className='design'>
           <Col lg={7} sm={12} className="about">
@@ -40,7 +40,7 @@ function About() {
       <Container>
         <Row>
           <Col className="d-flex flex-column align-items-center">
-            <span style={{fontSize: 20, borderBottomStyle: 'solid', borderWidth: .5, marginBottom: 50}}>What My Colleagues are saying...</span>
+            <span style={{fontSize: 23, borderBottomStyle: 'solid', borderWidth: .5, marginBottom: 50}}>What My Colleagues are saying...</span>
           </Col>
         </Row>
       </Container>

@@ -72,6 +72,15 @@
   color: black;
 }
 
+.brandHomeLink, .brandHomeLink:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.a:hover {
+  text-decoration: none;
+  color: black;
+}
 
 .projects {
   padding-top: 56px;
