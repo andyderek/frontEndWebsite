@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Accordion, Card, Image} from 'react-bootstrap'
-import IATSE from 's3://andynixonwebsite/iatse.jpeg'
+import IATSE from '../../assets/iatse.jpeg'
 
 function Employment2() {
 
