@@ -18,7 +18,7 @@ function Employment2() {
                         <Card.Body>
                             <Row>
                                 <Col lg={7}>
-                                    <Image width='100%' src={IATSE} fluid rounded></Image>
+                                    <Image width='100%' src={IATSE} fluid rounded/>
                                 </Col>
                                 <Col lg={5} className="projectsList">
                                     <ul>

@@ -19,7 +19,7 @@ function Projects2() {
                         <Card.Body>
                             <Row>
                                 <Col lg={7}>
-                                    <Image src={Feastly} fluid></Image>
+                                    <Image src={Feastly} fluid/>
                                 </Col>
                                 <Col lg={5}>
                                     <ul className='projectsList'>
@@ -42,7 +42,7 @@ function Projects2() {
                         <Card.Body>
                             <Row>
                                 <Col lg={7} sm={3}>
-                                    <Image src={Hacker} fluid ></Image>
+                                    <Image src={Hacker} fluid/>
                                 </Col>
                                 <Col lg={5}>
                                     <ul className='projectsList'>
